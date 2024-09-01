@@ -258,7 +258,7 @@ button:disabled {
 .plate {
     width: 64px;  /* Tamanho da placa */
     height: 64px;
-    background-image: url('ícones/placa.png');
+    background-image: url('C:/Users/Eric Costa/Downloads/Show do Milhão/ícones/placas/placa.png');
     background-size: contain;  /* Ajusta a imagem para caber dentro do container */
     background-position: center;
     display: flex;
@@ -283,10 +283,11 @@ button:disabled {
 }
 
 .university {
-    width: 32px;
+    width: 64px;
     height: 64px;
-    background-image: url('Show_do_Milhão/ícones/universitario.png');
-    background-size: cover;
+    background-image: url('C:\Users\Eric Costa\Downloads\Show do Milhão\ícones\universitarios');
+    background-size: contain;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,4 +300,84 @@ button:disabled {
 
 .university:hover {
     transform: scale(1.1);
+}
+
+/* Estilos responsivos para telas menores */
+@media screen and (max-width: 768px) {
+    #quiz-container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    #progress-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .progress-box {
+        width: 30px;
+        height: 30px;
+        margin: 5px 0;
+    }
+
+    #question {
+        font-size: 20px;
+    }
+
+    #answer-section {
+        flex-direction: column;
+    }
+
+    .option {
+        padding: 10px 15px;
+    }
+
+    #help-section {
+        flex-direction: row;
+    }
+
+    #help-section button {
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .card, .plate, .university {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #quiz-container {
+        padding: 5px;
+    }
+
+    #question {
+        font-size: 18px;
+    }
+
+    .option {
+        padding: 8px 10px;
+    }
+
+    #help-section button {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .card, .plate, .university {
+        width: 40px;
+        height: 40px;
+    }
 }
