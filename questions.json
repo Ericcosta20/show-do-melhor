@@ -1,0 +1,1053 @@
+[
+    {
+        "nivel": 1,
+        "id": 1,
+        "question_text": "Qual é a cor do céu em um dia ensolarado?",
+        "options": ["Verde", "Azul", "Vermelho", "Roxo"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 2,
+        "question_text": "Quantos dias tem uma semana?",
+        "options": ["5", "6", "7", "8"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 3,
+        "question_text": "Qual é a forma geométrica de uma bola?",
+        "options": ["Quadrado", "Círculo", "Triângulo", "Retângulo"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 4,
+        "question_text": "O que usamos para escrever no papel?",
+        "options": ["Lápis", "Borracha", "Régua", "Tesoura"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 5,
+        "question_text": "Qual desses animais pode voar?",
+        "options": ["Elefante", "Cachorro", "Pássaro", "Gato"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 6,
+        "question_text": "Quantos dedos temos nas mãos?",
+        "options": ["8", "9", "10", "12"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 7,
+        "question_text": "Qual é o número que vem depois de 4?",
+        "options": ["3", "5", "7", "8"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 8,
+        "question_text": "Qual é a estação do ano mais quente?",
+        "options": ["Inverno", "Verão", "Outono", "Primavera"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 9,
+        "question_text": "O que bebemos para matar a sede?",
+        "options": ["Refrigerante", "Água", "Café", "Suco"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 10,
+        "question_text": "Qual é a cor da grama?",
+        "options": ["Verde", "Azul", "Amarelo", "Vermelho"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 11,
+        "question_text": "Quantos olhos temos?",
+        "options": ["1", "2", "3", "4"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 12,
+        "question_text": "Qual destes alimentos é uma fruta?",
+        "options": ["Batata", "Maçã", "Cenoura", "Alface"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 13,
+        "question_text": "Qual é o som que um gato faz?",
+        "options": ["Au Au", "Miau", "Muuu", "Cócó"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 14,
+        "question_text": "O que usamos para cortar papel?",
+        "options": ["Caneta", "Cola", "Tesoura", "Borracha"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 15,
+        "question_text": "Qual é o nome do satélite natural da Terra?",
+        "options": ["Marte", "Lua", "Sol", "Vênus"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 16,
+        "question_text": "Quantos minutos tem uma hora?",
+        "options": ["30", "60", "90", "120"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 17,
+        "question_text": "Qual destes animais vive na água?",
+        "options": ["Elefante", "Leão", "Tubarão", "Macaco"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 18,
+        "question_text": "Qual destes é um meio de transporte?",
+        "options": ["Cadeira", "Carro", "Mesa", "Geladeira"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 19,
+        "question_text": "Qual é a cor das bananas maduras?",
+        "options": ["Verde", "Amarelo", "Vermelho", "Azul"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 20,
+        "question_text": "Quantas pernas tem uma aranha?",
+        "options": ["6", "8", "10", "12"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 21,
+        "question_text": "Qual é o principal componente do ar que respiramos?",
+        "options": ["Oxigênio", "Hidrogênio", "Carbono", "Nitrogênio"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 22,
+        "question_text": "Qual é a estação do ano em que as folhas caem das árvores?",
+        "options": ["Verão", "Inverno", "Primavera", "Outono"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 23,
+        "question_text": "Qual é o nome do planeta em que vivemos?",
+        "options": ["Marte", "Vênus", "Terra", "Júpiter"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 24,
+        "question_text": "Qual é o plural de \"flor\"?",
+        "options": ["Flores", "Florzinhas", "Florões", "Florzinhos"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 25,
+        "question_text": "Qual é a moeda utilizada no Brasil?",
+        "options": ["Dólar", "Euro", "Real", "Peso"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 26,
+        "question_text": "Qual é o som que um cachorro faz?",
+        "options": ["Miau", "Muuu", "Au Au", "Oinc Oinc"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 27,
+        "question_text": "Qual destes animais é um mamífero?",
+        "options": ["Peixe", "Águia", "Tartaruga", "Leão"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 28,
+        "question_text": "Qual é o nome da primeira refeição do dia?",
+        "options": ["Almoço", "Lanche", "Café da manhã", "Jantar"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 29,
+        "question_text": "Qual é a cor da neve?",
+        "options": ["Azul", "Vermelha", "Branca", "Amarela"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 30,
+        "question_text": "Qual destes é um vegetal?",
+        "options": ["Maçã", "Cenoura", "Biscoito", "Carne"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 31,
+        "question_text": "Quantos dias tem o mês de fevereiro em um ano comum?",
+        "options": ["28", "29", "30", "31"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 32,
+        "question_text": "Qual destes animais é conhecido por sua preguiça?",
+        "options": ["Cachorro", "Gato", "Bicho-preguiça", "Coelho"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 33,
+        "question_text": "Qual é a cor do fogo?",
+        "options": ["Verde", "Azul", "Roxo", "Laranja"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 34,
+        "question_text": "Qual é a forma geométrica de um dado tradicional?",
+        "options": ["Círculo", "Triângulo", "Quadrado", "Cubo"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 35,
+        "question_text": "O que usamos para beber café?",
+        "options": ["Copo", "Xícara", "Prato", "Tigela"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 36,
+        "question_text": "Qual é o oposto de \"frio\"?",
+        "options": ["Quente", "Gelado", "Morno", "Congelado"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 37,
+        "question_text": "Qual destes é um número par?",
+        "options": ["3", "7", "8", "9"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 38,
+        "question_text": "Qual destes é um animal selvagem?",
+        "options": ["Vaca", "Gato", "Cavalo", "Leão"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 39,
+        "question_text": "Qual é a parte do corpo que usamos para cheirar?",
+        "options": ["Olhos", "Boca", "Ouvidos", "Nariz"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 1,
+        "id": 40,
+        "question_text": "Qual é o sabor da laranja?",
+        "options": ["Doce", "Salgado", "Amargo", "Azedo"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 41,
+        "question_text": "Qual destes animais vive no deserto?",
+        "options": ["Pinguim", "Canguru", "Camelo", "Urso Polar"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 42,
+        "question_text": "Qual destes objetos é usado para medir o tempo?",
+        "options": ["Régua", "Bússola", "Relógio", "Termômetro"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 43,
+        "question_text": "Qual é a capital do Brasil?",
+        "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 44,
+        "question_text": "Qual é o nome do nosso satélite natural?",
+        "options": ["Sol", "Lua", "Marte", "Vênus"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 45,
+        "question_text": "Qual é o nome do maior planeta do Sistema Solar?",
+        "options": ["Marte", "Vênus", "Júpiter", "Saturno"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 46,
+        "question_text": "Qual é a cor da pele de um urso polar?",
+        "options": ["Preta", "Branca", "Marrom", "Cinza"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 47,
+        "question_text": "Qual destes é um inseto?",
+        "options": ["Aranha", "Borboleta", "Caranguejo", "Sapo"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 1,
+        "id": 48,
+        "question_text": "Quantos meses tem um ano?",
+        "options": ["10", "11", "12", "13"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 1,
+        "id": 49,
+        "question_text": "Qual destes animais é conhecido por construir represas?",
+        "options": ["Castor", "Urso", "Coelho", "Elefante"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 1,
+        "id": 50,
+        "question_text": "Qual destes é um planeta?",
+        "options": ["Sol", "Lua", "Estrela", "Terra"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 51,
+        "question_text": "Qual é o valor de 7 + 8?",
+        "options": ["13", "14", "15", "16"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 52,
+        "question_text": "Qual é o maior oceano do mundo?",
+        "options": ["Atlântico", "Pacífico", "Índico", "Ártico"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 53,
+        "question_text": "Quem escreveu 'Dom Casmurro'?",
+        "options": ["Jorge Amado", "Machado de Assis", "Carlos Drummond", "Clarice Lispector"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 54,
+        "question_text": "Quantos continentes existem na Terra?",
+        "options": ["4", "5", "6", "7"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 55,
+        "question_text": "Qual é a capital da França?",
+        "options": ["Roma", "Paris", "Londres", "Berlim"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 56,
+        "question_text": "Quem pintou a Mona Lisa?",
+        "options": ["Vincent van Gogh", "Michelangelo", "Pablo Picasso", "Leonardo da Vinci"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 57,
+        "question_text": "Qual é o planeta mais próximo do Sol?",
+        "options": ["Terra", "Marte", "Mercúrio", "Vênus"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 58,
+        "question_text": "Em que ano o homem pisou na Lua pela primeira vez?",
+        "options": ["1965", "1969", "1972", "1980"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 59,
+        "question_text": "Qual é o nome científico da água?",
+        "options": ["CO2", "H2O", "O2", "N2"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 60,
+        "question_text": "Qual é o maior país em extensão territorial?",
+        "options": ["Brasil", "Canadá", "Estados Unidos", "Rússia"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 61,
+        "question_text": "Quantos lados tem um hexágono?",
+        "options": ["5", "6", "7", "8"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 62,
+        "question_text": "Quem foi o primeiro presidente do Brasil?",
+        "options": ["Getúlio Vargas", "Juscelino Kubitschek", "Deodoro da Fonseca", "Dom Pedro II"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 63,
+        "question_text": "Qual é o elemento químico mais abundante no universo?",
+        "options": ["Oxigênio", "Hidrogênio", "Carbono", "Nitrogênio"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 64,
+        "question_text": "Qual é o menor país do mundo?",
+        "options": ["Mônaco", "Nauru", "Vaticano", "San Marino"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 65,
+        "question_text": "Quantas notas musicais existem?",
+        "options": ["5", "6", "7", "8"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 66,
+        "question_text": "Qual é o nome do primeiro livro da Bíblia?",
+        "options": ["Êxodo", "Levítico", "Números", "Gênesis"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 67,
+        "question_text": "Quem inventou a lâmpada elétrica?",
+        "options": ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Alexander Graham Bell"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 68,
+        "question_text": "Qual é o nome do maior deserto do mundo?",
+        "options": ["Saara", "Gobi", "Kalahari", "Antártico"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 69,
+        "question_text": "Qual é o símbolo químico do ouro?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 2,
+        "id": 70,
+        "question_text": "Qual animal é conhecido como 'o melhor amigo do homem'?",
+        "options": ["Gato", "Cavalo", "Cachorro", "Papagaio"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 71,
+        "question_text": "Qual é o nome do presidente dos Estados Unidos durante a Segunda Guerra Mundial?",
+        "options": ["Theodore Roosevelt", "Franklin D. Roosevelt", "Harry S. Truman", "Dwight D. Eisenhower"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 72,
+        "question_text": "Qual é a moeda oficial do Japão?",
+        "options": ["Yuan", "Yen", "Won", "Dólar"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 73,
+        "question_text": "Quem foi o primeiro homem a circunavegar o globo?",
+        "options": ["Cristóvão Colombo", "Ferdinand Magellan", "Vasco da Gama", "James Cook"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 74,
+        "question_text": "Qual é o maior órgão do corpo humano?",
+        "options": ["Coração", "Fígado", "Pele", "Cérebro"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 75,
+        "question_text": "Em que ano aconteceu a Revolução Francesa?",
+        "options": ["1776", "1789", "1804", "1812"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 76,
+        "question_text": "Quem escreveu 'O Pequeno Príncipe'?",
+        "options": ["J.K. Rowling", "Antoine de Saint-Exupéry", "Victor Hugo", "Gabriel García Márquez"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 77,
+        "question_text": "Qual é o maior rio do mundo em volume de água?",
+        "options": ["Nilo", "Yangtzé", "Mississippi", "Amazonas"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 78,
+        "question_text": "Qual é a fórmula química do gás carbônico?",
+        "options": ["CO", "CO2", "CH4", "O2"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 79,
+        "question_text": "Quem pintou o teto da Capela Sistina?",
+        "options": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 80,
+        "question_text": "Qual é o nome do primeiro satélite artificial lançado pela União Soviética em 1957?",
+        "options": ["Apollo", "Sputnik", "Luna", "Voyager"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 81,
+        "question_text": "Qual é a capital do Canadá?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 82,
+        "question_text": "Quem foi o primeiro imperador romano?",
+        "options": ["Júlio César", "Augusto", "Nero", "Calígula"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 83,
+        "question_text": "Qual é o símbolo químico da prata?",
+        "options": ["Au", "Ag", "Pb", "Pt"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 84,
+        "question_text": "Qual é o nome da estrela mais próxima da Terra?",
+        "options": ["Alpha Centauri", "Betelgeuse", "Sol", "Sirius"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 85,
+        "question_text": "Quem escreveu 'Hamlet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Jane Austen"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 2,
+        "id": 86,
+        "question_text": "Qual é a capital da Austrália?",
+        "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 87,
+        "question_text": "Qual é o nome da primeira pessoa a escalar o Monte Everest?",
+        "options": ["Edmund Hillary", "George Mallory", "Tenzing Norgay", "Reinhold Messner"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 2,
+        "id": 88,
+        "question_text": "Quem descobriu a penicilina?",
+        "options": ["Louis Pasteur", "Marie Curie", "Alexander Fleming", "Joseph Lister"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 89,
+        "question_text": "Qual é o nome do maior lago da América do Sul?",
+        "options": ["Lago Titicaca", "Lago de Maracaibo", "Lagoa dos Patos", "Lago Poopó"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 90,
+        "question_text": "Qual é a língua oficial do Brasil?",
+        "options": ["Espanhol", "Francês", "Português", "Inglês"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 91,
+        "question_text": "Qual é o nome do segundo livro da Bíblia?",
+        "options": ["Gênesis", "Êxodo", "Levítico", "Números"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 92,
+        "question_text": "Qual é a capital da Itália?",
+        "options": ["Paris", "Roma", "Milão", "Nápoles"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 93,
+        "question_text": "Qual é o nome da maior ilha do mundo?",
+        "options": ["Groenlândia", "Madagascar", "Nova Guiné", "Borneo"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 2,
+        "id": 94,
+        "question_text": "Qual é o nome do autor de 'O Senhor dos Anéis'?",
+        "options": ["C.S. Lewis", "George R.R. Martin", "J.K. Rowling", "J.R.R. Tolkien"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 2,
+        "id": 95,
+        "question_text": "Qual é o nome do maior estado do Brasil em área territorial?",
+        "options": ["São Paulo", "Amazonas", "Mato Grosso", "Minas Gerais"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 96,
+        "question_text": "Em que ano começou a Primeira Guerra Mundial?",
+        "options": ["1912", "1914", "1918", "1920"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 2,
+        "id": 97,
+        "question_text": "Qual é o nome do fundador do Facebook?",
+        "options": ["Elon Musk", "Jeff Bezos", "Mark Zuckerberg", "Bill Gates"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 98,
+        "question_text": "Qual é a capital do Egito?",
+        "options": ["Cairo", "Alexandria", "Gizé", "Luxor"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 2,
+        "id": 99,
+        "question_text": "Qual é o nome do sistema operacional desenvolvido pela Microsoft?",
+        "options": ["iOS", "Linux", "Windows", "Android"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 2,
+        "id": 100,
+        "question_text": "Qual é o nome da maior cordilheira do mundo?",
+        "options": ["Andes", "Rocky Mountains", "Himalaias", "Alpes"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 3,
+        "id": 101,
+        "question_text": "Quem é considerado o pai da psicanálise?",
+        "options": ["Carl Jung", "Sigmund Freud", "Jean Piaget", "B. F. Skinner"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 102,
+        "question_text": "Qual elemento tem o maior número atômico na tabela periódica?",
+        "options": ["Uranium", "Plutonium", "Oganesson", "Lead"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 3,
+        "id": 103,
+        "question_text": "Em qual cidade os Jogos Olímpicos modernos foram realizados pela primeira vez?",
+        "options": ["Atenas", "Paris", "Londres", "Berlim"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 104,
+        "question_text": "Quem escreveu a teoria da relatividade?",
+        "options": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 105,
+        "question_text": "Qual é o nome do principal índice da Bolsa de Valores de Nova York?",
+        "options": ["NASDAQ", "Dow Jones", "S&P 500", "FTSE"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 106,
+        "question_text": "O que é um quasar?",
+        "options": ["Um cometa", "Uma estrela explosiva", "Um buraco negro", "Um objeto astronômico extremamente energético"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 3,
+        "id": 107,
+        "question_text": "Qual país é conhecido como o berço da democracia?",
+        "options": ["Egito", "Grécia", "Itália", "Inglaterra"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 108,
+        "question_text": "Qual é o maior osso do corpo humano?",
+        "options": ["Fêmur", "Escápula", "Esterno", "Úmero"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 109,
+        "question_text": "Quem é o autor de 'Crime e Castigo'?",
+        "options": ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Vladimir Nabokov"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 110,
+        "question_text": "Qual é o valor da constante da gravidade?",
+        "options": ["6.67408 × 10^-11 m^3 kg^-1 s^-2", "9.8 m/s^2", "3.14159", "1.602 × 10^-19 C"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 111,
+        "question_text": "Qual é o elemento mais abundante na crosta terrestre?",
+        "options": ["Oxigênio", "Silício", "Alumínio", "Ferro"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 112,
+        "question_text": "Em que ano a União Soviética foi oficialmente dissolvida?",
+        "options": ["1989", "1991", "1995", "2000"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 113,
+        "question_text": "Qual é o período de gestação de um elefante?",
+        "options": ["9 meses", "22 meses", "12 meses", "18 meses"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 114,
+        "question_text": "Quem pintou 'A Última Ceia'?",
+        "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 115,
+        "question_text": "Qual é o prédio mais alto do mundo?",
+        "options": ["Shanghai Tower", "Burj Khalifa", "Abraj Al Bait", "One World Trade Center"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 116,
+        "question_text": "Qual é o idioma oficial mais falado no mundo?",
+        "options": ["Inglês", "Mandarim", "Espanhol", "Hindi"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 117,
+        "question_text": "Quem descobriu a circulação do sangue?",
+        "options": ["William Harvey", "Antoine Lavoisier", "Louis Pasteur", "Alexander Fleming"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 118,
+        "question_text": "Qual é o nome do acordo que estabeleceu a União Europeia?",
+        "options": ["Tratado de Maastricht", "Tratado de Lisboa", "Tratado de Versalhes", "Pacto de Varsóvia"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 119,
+        "question_text": "Em que ano ocorreu a queda do Muro de Berlim?",
+        "options": ["1987", "1989", "1991", "1994"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 120,
+        "question_text": "Qual é o livro mais vendido no mundo depois da Bíblia?",
+        "options": ["Dom Quixote", "O Senhor dos Anéis", "Harry Potter", "O Alquimista"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 121,
+        "question_text": "Qual é o rio mais longo do mundo?",
+        "options": ["Amazonas", "Nilo", "Yangtzé", "Mississippi"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 122,
+        "question_text": "Qual é o nome do processo pelo qual as plantas fabricam seu alimento?",
+        "options": ["Fermentação", "Fotossíntese", "Respiração", "Fotosfera"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 123,
+        "question_text": "Quem foi o primeiro homem a ir ao espaço?",
+        "options": ["Neil Armstrong", "Yuri Gagarin", "John Glenn", "Buzz Aldrin"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 124,
+        "question_text": "Qual é o nome da teoria que propõe que os continentes se movem ao longo do tempo?",
+        "options": ["Gravitação Universal", "Teoria da Relatividade", "Teoria das Placas Tectônicas", "Teoria Quântica"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 3,
+        "id": 125,
+        "question_text": "Qual é o elemento químico essencial para a formação de ossos e dentes?",
+        "options": ["Cálcio", "Ferro", "Potássio", "Magnésio"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 126,
+        "question_text": "Em que ano foi fundada a Organização das Nações Unidas?",
+        "options": ["1945", "1955", "1960", "1970"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 127,
+        "question_text": "Quem foi o criador do personagem Sherlock Holmes?",
+        "options": ["Agatha Christie", "Arthur Conan Doyle", "Ian Fleming", "Stephen King"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 128,
+        "question_text": "Qual é o nome do processo de transformação de larva para borboleta?",
+        "options": ["Metamorfose", "Transmutação", "Evaporação", "Ciclo"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 129,
+        "question_text": "Qual é o nome da maior lua de Saturno?",
+        "options": ["Europa", "Titã", "Ganímedes", "Calisto"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 130,
+        "question_text": "Qual é o elemento mais abundante no universo?",
+        "options": ["Hidrogênio", "Hélio", "Oxigênio", "Carbono"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 131,
+        "question_text": "Qual é o nome da linha imaginária que divide a Terra em hemisférios norte e sul?",
+        "options": ["Meridiano de Greenwich", "Equador", "Trópico de Câncer", "Trópico de Capricórnio"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 132,
+        "question_text": "Em que país foi inventado o xadrez?",
+        "options": ["Índia", "China", "Rússia", "Irã"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 133,
+        "question_text": "Qual é o nome do filósofo que escreveu 'A República'?",
+        "options": ["Aristóteles", "Sócrates", "Platão", "Demócrito"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 3,
+        "id": 134,
+        "question_text": "Qual é a capital do Egito?",
+        "options": ["Cairo", "Alexandria", "Luxor", "Aswan"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 135,
+        "question_text": "Qual é o nome do processo pelo qual a água passa do estado líquido para o gasoso?",
+        "options": ["Condensação", "Evaporação", "Sublimação", "Precipitação"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 136,
+        "question_text": "Qual é o nome do cientista que propôs a teoria da evolução pela seleção natural?",
+        "options": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Isaac Newton"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 137,
+        "question_text": "Qual é o nome do mais famoso teatro de ópera de Moscou?",
+        "options": ["Bolshoi", "Mariinsky", "La Scala", "Metropolitan"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 138,
+        "question_text": "Quem foi o primeiro a propor que a Terra orbita o Sol?",
+        "options": ["Aristarco", "Copérnico", "Galileu Galilei", "Kepler"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 139,
+        "question_text": "Qual é o nome da pintura de Vincent van Gogh que retrata uma cena noturna de um café?",
+        "options": ["Noite Estrelada", "Terraço do Café à Noite", "Girassóis", "Quarto em Arles"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 140,
+        "question_text": "Quem é o autor de 'Cem Anos de Solidão'?",
+        "options": ["Gabriel García Márquez", "Mario Vargas Llosa", "Julio Cortázar", "Carlos Fuentes"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 141,
+        "question_text": "Qual é o nome do famoso físico que desenvolveu a teoria da relatividade geral em 1915?",
+        "options": ["Albert Einstein", "Max Planck", "Niels Bohr", "Werner Heisenberg"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 142,
+        "question_text": "Qual é o nome do acordo que estabeleceu a criação do euro como moeda comum europeia?",
+        "options": ["Tratado de Maastricht", "Tratado de Lisboa", "Tratado de Roma", "Pacto de Varsóvia"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 143,
+        "question_text": "Qual é o nome do livro que introduziu a teoria da psicanálise?",
+        "options": ["O Mal-Estar na Civilização", "A Interpretação dos Sonhos", "Além do Princípio do Prazer", "Totem e Tabu"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 144,
+        "question_text": "Quem foi o líder do movimento Indiano de independência contra o domínio britânico?",
+        "options": ["Indira Gandhi", "Rajendra Prasad", "Mahatma Gandhi", "Jawaharlal Nehru"],
+        "correct_option": 3
+    },
+    {
+        "nivel": 3,
+        "id": 145,
+        "question_text": "Em que ano foi assinada a Declaração de Independência dos Estados Unidos?",
+        "options": ["1776", "1783", "1791", "1804"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 146,
+        "question_text": "Quem foi o físico que descobriu a lei da gravitação universal?",
+        "options": ["Isaac Newton", "Galileo Galilei", "Johannes Kepler", "Albert Einstein"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 147,
+        "question_text": "Qual é o nome do filósofo que escreveu 'Crítica da Razão Pura'?",
+        "options": ["Immanuel Kant", "René Descartes", "Friedrich Nietzsche", "David Hume"],
+        "correct_option": 1
+    },
+    {
+        "nivel": 3,
+        "id": 148,
+        "question_text": "Qual é o nome do primeiro satélite artificial lançado pela União Soviética?",
+        "options": ["Apollo", "Sputnik", "Vostok", "Luna"],
+        "correct_option": 2
+    },
+    {
+        "nivel": 3,
+        "id": 149,
+        "question_text": "Quem foi o autor da teoria heliocêntrica?",
+        "options": ["Isaac Newton", "Johannes Kepler", "Galileo Galilei", "Nicolau Copérnico"],
+        "correct_option": 4
+    },
+    {
+        "nivel": 3,
+        "id": 150,
+        "question_text": "Em que ano foi derrubado o Muro de Berlim?",
+        "options": ["1985", "1987", "1989", "1991"],
+        "correct_option": 3
+    }
+]
+ 

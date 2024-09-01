@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Melhor</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="quiz-container">
+            <div id="question-number"></div>
+            <div id="question"></div>
+            <div id="answer-section">
+                <div class="option" data-option="1" onclick="selectOption('1')"><span class="number">1</span><span class="text"></span></div>
+                <div class="option" data-option="2" onclick="selectOption('2')"><span class="number">2</span><span class="text"></span></div>
+                <div class="option" data-option="3" onclick="selectOption('3')"><span class="number">3</span><span class="text"></span></div>
+                <div class="option" data-option="4" onclick="selectOption('4')"><span class="number">4</span><span class="text"></span></div>
+            </div>
+            <div id="feedback-message"></div>
+            <div id="help-section">
+                <button onclick="universityHelp(this)">Universitários</button>
+                <button onclick="plateHelp(this)">Placas</button>
+                <button onclick="cardHelp(this)">Cartas</button>
+                <button onclick="skipQuestion(this)">Pular 1</button>
+                <button onclick="skipQuestion(this)">Pular 2</button>
+                <button onclick="skipQuestion(this)">Pular 3"></button>                     
+            </div>
+        </div>
+        
+        <div id="progress-bar">
+            <div class="progress-level" id="level-1">
+                <div class="progress-title">Nível 1</div>
+                <div class="progress-boxes">
+                    <div class="progress-box" id="level-1-q1">P1</div>
+                    <div class="progress-box" id="level-1-q2">P2</div>
+                    <div class="progress-box" id="level-1-q3">P3</div>
+                    <div class="progress-box" id="level-1-q4">P4</div>
+                    <div class="progress-box" id="level-1-q5">P5</div>
+                </div>
+            </div>
+            <div class="progress-level" id="level-2">
+                <div class="progress-title">Nível 2</div>
+                <div class="progress-boxes">
+                    <div class="progress-box" id="level-2-q1">P6</div>
+                    <div class="progress-box" id="level-2-q2">P7</div>
+                    <div class="progress-box" id="level-2-q3">P8</div>
+                    <div class="progress-box" id="level-2-q4">P9</div>
+                    <div class="progress-box" id="level-2-q5">P10</div>
+                </div>
+            </div>
+            <div class="progress-level" id="level-3">
+                <div class="progress-title">Nível 3</div>
+                <div class="progress-boxes">
+                    <div class="progress-box" id="level-3-q1">P11</div>
+                    <div class="progress-box" id="level-3-q2">P12</div>
+                    <div class="progress-box" id="level-3-q3">P13</div>
+                    <div class="progress-box" id="level-3-q4">P14</div>
+                    <div class="progress-box" id="level-3-q5">P15</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Cartas -->
+<div id="cards-modal" class="modal">
+    <div class="modal-content">
+        <p>Escolha uma carta:</p>
+        <div id="cards-container">
+            <img src="ícones/Cartas/coringas.png" alt="Carta 1" class="card" onclick="chooseCard(1)">
+            <img src="ícones/Cartas/coringas.png" alt="Carta 2" class="card" onclick="chooseCard(2)">
+            <img src="ícones/Cartas/coringas.png" alt="Carta 3" class="card" onclick="chooseCard(3)">
+            <img src="ícones/Cartas/coringas.png" alt="Carta 4" class="card" onclick="chooseCard(4)">
+        </div>
+        <p id="card-result"></p>
+    </div>
+</div>
+
+<!-- Modal de Placas -->
+<div id="plates-modal" class="modal">
+    <div class="modal-content">
+        <p>Veja as respostas sugeridas:</p>
+        <div id="plates-container">
+            <div class="plate" id="plate-1"></div>
+            <div class="plate" id="plate-2"></div>
+            <div class="plate" id="plate-3"></div>
+            <div class="plate" id="plate-4"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal dos Universitários -->
+<div id="university-modal" class="modal">
+    <div class="modal-content">
+        <p>Os universitários sugerem:</p>
+        <div id="university-container">
+            <div class="university" id="university-1"></div>
+            <div class="university" id="university-2"></div>
+            <div class="university" id="university-3"></div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Modal de Confirmação -->
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <p>Está certo disso?</p>
+            <button onclick="confirmChoice(true)">SIM</button>
+            <button onclick="confirmChoice(false)">NÃO</button>
+        </div>
+    </div>
+
+    <!-- Modal de Transição de Nível -->
+    <div id="level-transition-modal" class="modal">
+        <div class="modal-content">
+            <p>Parabéns! Você avançou para o próximo nível!</p>
+            <button onclick="closeLevelTransitionModal()">BOA!</button>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

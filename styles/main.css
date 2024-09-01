@@ -1,0 +1,302 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a2e36;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+#quiz-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e5a77;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #123456;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.progress-level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-title {
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.progress-boxes {
+    display: flex;
+}
+
+.progress-box {
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#question {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+#question-number {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background-color: #fa8072;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #ff6347;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+#help-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#help-section button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #4169e1;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#help-section button:hover {
+    background-color: #1e40af;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none; /* Inicia escondido */
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.modal-content button {
+    padding: 15px 30px; /* Aumenta o tamanho dos botões */
+    font-size: 18px;    /* Aumenta o tamanho do texto nos botões */
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #1e40af;
+}
+
+#level-transition-modal .modal-content {
+    padding: 40px;
+    font-size: 18px;
+}
+
+#level-transition-modal .modal-content button {
+    padding: 20px 40px; /* Aumenta ainda mais o tamanho do botão de transição de nível */
+    font-size: 20px;    /* Aumenta o tamanho do texto no botão */
+    background-color: #28a745;
+}
+
+#level-transition-modal .modal-content button:hover {
+    background-color: #218838;
+}
+
+
+#feedback-message {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    z-index: 1050;
+    display: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.5;
+    border: 1px solid #999;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 64px; /* Considerando que o tamanho das cartas seja 32x32, mas ampliado para visualização */
+    height: 64px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#card-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4169e1;
+}
+
+#plates-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plate {
+    width: 64px;  /* Tamanho da placa */
+    height: 64px;
+    background-image: url('ícones/placa.png');
+    background-size: contain;  /* Ajusta a imagem para caber dentro do container */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.plate:hover {
+    transform: scale(1.1);
+}
+
+#university-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.university {
+    width: 32px;
+    height: 64px;
+    background-image: url('Show_do_Milhão/ícones/universitario.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.university:hover {
+    transform: scale(1.1);
+}
