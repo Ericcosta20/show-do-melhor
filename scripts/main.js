@@ -232,9 +232,6 @@ function getCorrectRateRange() {
 }
 
 
-
-
-
 function cardHelp(button) {
     // Exibir modal de cartas
     document.getElementById('cards-modal').style.display = 'flex';
@@ -311,8 +308,22 @@ function restartQuiz() {
     shuffleArray(questions);
     resetHelpButtons();
     resetProgressBar();
+    resetCards(); // Adiciona essa linha para resetar as cartas
     displayQuestion(currentQuestionIndex);
 }
+
+function resetCards() {
+    // Reinicia as cartas para o estado original (viradas para baixo)
+    const cards = document.querySelectorAll('#cards-container img');
+    cards.forEach(card => {
+        card.src = 'ícones/Cartas/coringas.png'; // Caminho da imagem original das cartas viradas
+    });
+
+    // Limpa o texto que mostra o resultado da carta
+    const cardResultElement = document.getElementById('card-result');
+    cardResultElement.textContent = '';
+}
+
 
 function resetHelpButtons() {
     const helpButtons = document.querySelectorAll('#help-section button');
